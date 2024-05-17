@@ -1,0 +1,18 @@
+# Installation et Configuration de Logwatch
+
+# Installation de Logwatch
+sudo apt-get install logwatch
+
+# Configuration de Logwatch :
+# Le fichier de configuration est situé à /etc/logwatch/conf. 
+# Vous pouvez personnaliser les paramètres en modifiant ce fichier selon vos besoins.
+
+# Traitement des Logs avec Fail2ban
+
+# Installation de Fail2ban
+sudo apt-get install fail2ban
+
+# Configuration de Fail2ban :
+# Pour surveiller les activités suspectes dans les logs, 
+# créez des filtres de jail dans /etc/fail2ban.
+# Ces filtres spécifient les actions à prendre lors de la détection de comportements malveillants.
