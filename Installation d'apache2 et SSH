@@ -1,0 +1,6 @@
+# Installation d'Apache2
+sudo apt-get update
+sudo apt-get install apache2
+
+# Installation de SSH
+sudo apt-get install openssh-server
