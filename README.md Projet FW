@@ -2,10 +2,12 @@
 
 Ce projet vise à sécuriser un serveur web en utilisant Apache2, SSH, Logwatch et Fail2ban. Voici un résumé des étapes nécessaires :
 
-- **Installation d'Apache2 et SSH :** Utilisez les commandes `sudo apt-get install apache2` et `sudo apt-get install openssh-server`.
+- **Installation d'Apache2 et SSH :** Utilisez les commandes <span style="color:blue">`sudo apt-get install apache2`</span> et <span style="color:blue">`sudo apt-get install openssh-server`</span>.
 - **Vérification du Fonctionnement :** Assurez-vous que les services Apache2 et SSH fonctionnent correctement.
 - **Suppression des Règles de Firewall :** Exécutez les commandes pour supprimer toutes les règles de firewall.
 - **Recréation des Règles Nécessaires :** Ajoutez les règles de pare-feu pour SSH et Apache2.
-- **Installation de Logwatch :** Installez le paquet Logwatch avec `sudo apt-get install logwatch`.
-- **Configuration de Logwatch :** Personnalisez les paramètres dans `/etc/logwatch/conf`.
-- **Traitement des Logs avec Fail2ban :** Installez Fail2ban avec `sudo apt-get install fail2ban` et configurez les jails pour surveiller les activités suspectes dans les logs.
+- **Installation de Logwatch :** Installez le paquet Logwatch avec <span style="color:blue">`sudo apt-get install logwatch`</span>.
+- **Configuration de Logwatch :** Personnalisez les paramètres dans <span style="color:blue">`/etc/logwatch/conf`</span>.
+- **Traitement des Logs avec Fail2ban :** Installez Fail2ban avec <span style="color:blue">`sudo apt-get install fail2ban`</span> et configurez les jails pour surveiller les activités suspectes dans les logs.
+
+Consultez les instructions détaillées dans les sections correspondantes pour plus d'informations sur chaque étape.
