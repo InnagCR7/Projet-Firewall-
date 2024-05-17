@@ -1,8 +1,16 @@
 #!/bin/bash
 
-# Autoriser le trafic SSH
+# Ce script configure les règles de pare-feu pour autoriser le trafic SSH, HTTP et HTTPS.
+
+# Autoriser le trafic SSH sur le port 22
 sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT
 
 # Autoriser le trafic HTTP (port 80) et HTTPS (port 443) pour Apache2
 sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT
 sudo iptables -A INPUT -p tcp --dport 443 -j ACCEPT
+
+
+# Pour rendre cela éxécutable il faut mettre cela dans le terminal cmd
+chmod +x firewall.sh
+#Par la suite il faut executé le script avec sudo pour appliquer les règles de pare-feu
+sudo ./firewall.sh
