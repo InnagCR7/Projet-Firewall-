@@ -1,4 +1,4 @@
-# Sécurisation d'un Serveur Web
+# PROJET FW
 
 Ce projet vise à sécuriser un serveur web en utilisant Apache2, SSH, Logwatch et Fail2ban. Voici un résumé des étapes nécessaires :
 
